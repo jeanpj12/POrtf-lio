@@ -52,10 +52,6 @@
   span {
 
     color: var(--color-gray-500);
-
-    & > span {
-        color: var(--color-red);
-      }
   }
 
   h1 {
@@ -76,6 +72,28 @@
       img {
         width: 20px;
       }
+    }
+  }
+}
+
+#projects {
+  padding-block: 72px;
+  background-color: var(--color-gray-200);
+
+  .card {
+    padding: 12px;
+    background-color: var(--color-gray-300);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 330px;
+    text-align: left;
+
+    img {
+      border-radius: 12px;
+      width: 100%;
+      object-fit: cover;
     }
   }
 }
