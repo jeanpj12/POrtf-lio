@@ -38,3 +38,25 @@
     --text-md: 400 16px/140% var(--font-family-maven-pro);
     --text-sm: 400 14px/140% var(--font-family-maven-pro);
 }
+
+body, input, button, textarea {
+    font: var(--text-md);
+}
+
+h1, h2, h3 {
+    font: inherit;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    background-color: var(--color-gray-300);
+    color: var(--color-gray-600);
+}
+
+.container {
+    max-width: 1040px;
+}
