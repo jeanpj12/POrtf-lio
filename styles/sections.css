@@ -89,12 +89,18 @@
     gap: 10px;
     max-width: 330px;
     text-align: left;
+    box-sizing: content-box;
+    transition: border .2s;
 
     img {
       border-radius: 12px;
       width: 100%;
       object-fit: cover;
     }
+
+    &:hover {
+      border: 1px solid var(--color-gray-500);
+  }
   }
 }
 
@@ -123,9 +129,14 @@
   padding-block: 128px 200px;
   gap: 48px;
 
+  span:nth-child(1){
+    color: var(--color-purple);
+  }
   #links {
     gap: 16px;
     margin-top: 56px;
+
+
 
     #link {
       width: 100%;
@@ -141,6 +152,10 @@
       img:nth-child(3) {
         width: 20px;
       }
+
+      &:hover {
+        border: 1px solid var(--color-blue);
+    }
     }
   }
 }
