@@ -114,3 +114,33 @@
     }
   }
 }
+
+#contact {
+  background-image: url(../assets/images/Background_Intro.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-block: 128px 200px;
+  gap: 48px;
+
+  #links {
+    gap: 16px;
+    margin-top: 56px;
+
+    #link {
+      width: 100%;
+      background-color: var(--color-gray-300);
+      padding: 20px;
+      justify-content: space-between;
+      border-radius: 12px;
+
+      img:nth-child(1) {
+        width: 28px;
+      }
+
+      img:nth-child(3) {
+        width: 20px;
+      }
+    }
+  }
+}
